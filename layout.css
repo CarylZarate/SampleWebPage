@@ -321,6 +321,9 @@ html, body{
 		font-family: 'Open Sans Condensed', serif;
 		color: #FFD700;
 		text-align: center;
+		width: 70vw;
+		float: left;
+		white-space: nowrap;
 	}
 	
 	#footerItem li:active{
@@ -340,15 +343,25 @@ html, body{
 		text-decoration: none;
 	}
 
-	.dropdown-menu{
-		background: #489FD1;
+		.dropdown-menu{
+			background: #489FD1;
+		}
+		
+		.dropdown-menu li a{
+			background: #489FD1;
+		}
+
+		.dropdown-menu li a:hover{
+			background: #30C5DC;
+			color: white;
+		}
+	
+	#buttonContainer{
+		width: 15vw;
+		float: left;
+		text-align: right;
 	}
 	
-	.dropdown-menu li a{
-		background: #489FD1;
+	#collapseButton{
+		color: #FFD700;
 	}
-
-	.dropdown-menu li a:hover{
-		background: #30C5DC;
-		color: white;
-	}*/
