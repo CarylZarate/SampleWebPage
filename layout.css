@@ -195,13 +195,22 @@ html, body{
 			background-size: cover;
 			height: calc(100vh - 170px);
 		}
-		
+		.carousel-caption{
+			position: absolute;
+			size: 100%;
+			top: 40%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%); 
+		}
+
 		.carousel-caption h1{
 			font-family: 'Pacifico', cursive;
 		}
 		
 		.carousel-caption p{
 			font-family: 'Pacifico', cursive;
+			font-size: 20px;
 		}
 		
 	/*Right*/
@@ -226,16 +235,9 @@ html, body{
 			margin-bottom: 10px;
 			padding-top: 20px;
 			padding-bottom: 23px;
-			height: 40px;
-			width: 130px;
 			background-image: url("img/facebook.png");
-			background-size: cover;
 			background-repeat: no-repeat;
 			position: relative;
-			top: 50%;
-			left: 50%;
-			margin-right: -50%;
-			transform: translate(-50%, -50%);
 		}
 
 		#facebook a{
@@ -247,17 +249,9 @@ html, body{
 			margin-bottom: 10px;
 			padding-top: 20px;
 			padding-bottom: 23px;
-			height: 40px;
-			width: 130px;
 			background-image: url("img/twitter.png");
-			background-position: center center;
-			background-size: cover;
 			background-repeat: no-repeat;
-			position: relative;
-			top: 50%;
-			left: 50%;
-			margin-right: -50%;
-			transform: translate(-50%, -50%);		
+			position: relative;		
 		}
 		
 		#twitter a{
@@ -267,19 +261,11 @@ html, body{
 
 		#instagram{
 			margin-bottom: 10px;
-			padding-top: 23px;
-			padding-bottom: 15px;
-			height: 40px;
-			width: 130px;
+			padding-top: 20px;
+			padding-bottom: 23px;
 			background-image: url("img/instagram.png");
-			background-position: center center;
-			background-size: cover;
 			background-repeat: no-repeat;
 			position: relative;
-			top: 50%;
-			left: 50%;
-			margin-right: -50%;
-			transform: translate(-50%, -50%)
 		}
 
 		#instagram a{
@@ -289,19 +275,11 @@ html, body{
 
 		#google{
 			margin-bottom: 10px;
+			padding-top: 20px;
+			padding-bottom: 23px;
 			background-image: url("img/google.png");
-			background-position: center center;
-			background-size: cover;
 			background-repeat: no-repeat;
-			padding-top: 23px;
-			padding-bottom: 15px;
-			height: 40px;
-			width: 130px;
 			position: relative;
-			top: 50%;
-			left: 50%;
-			margin-right: -50%;
-			transform: translate(-50%, -50%);
 		}
 
 		#google a{
@@ -312,43 +290,18 @@ html, body{
 	
 /*Footer*/
 #footerWrapper{
-	height: 50px;
 	background: #489FD1;
 }
 
-	#footerItem{
-		text-decoration: none;
-		font-family: 'Open Sans Condensed', serif;
-		color: #FFD700;
-		text-align: center;
-	}
-	
-	#footerItem li:active{
+#footerNav{
+	position: relative;
+	bottom: 0%;
+	left: 10%;
+	margin-right: -50%;
+	transform: translate(-50%, -0%);
+	background: #489FD1;
+}
 
-    }
-
-	#footerItem li a{
-		text-decoration: none;
-		font-family: 'Open Sans Condensed', serif;
-		color: #FFD700;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-
-	#footerItem li a:hover{
-		color: #F5FEFF;
-		text-decoration: none;
-	}
-
-	.dropdown-menu{
-		background: #489FD1;
-	}
-	
-	.dropdown-menu li a{
-		background: #489FD1;
-	}
-
-	.dropdown-menu li a:hover{
-		background: #30C5DC;
-		color: white;
-	}*/
+#dropText{
+	background: #489FD1;
+}
