@@ -312,56 +312,19 @@ html, body{
 	
 /*Footer*/
 #footerWrapper{
-	height: 50px;
+	background: #489FD1;
+
+}
+
+#footerNav{
+	position: relative;
+	bottom: 0%;
+	left: 10%;
+	margin-right: -50%;
+	transform: translate(-50%, -0%);
 	background: #489FD1;
 }
 
-	#footerItem{
-		text-decoration: none;
-		font-family: 'Open Sans Condensed', serif;
-		color: #FFD700;
-		text-align: center;
-		width: 70vw;
-		float: left;
-		white-space: nowrap;
-	}
-	
-	#footerItem li:active{
-
-    }
-
-	#footerItem li a{
-		text-decoration: none;
-		font-family: 'Open Sans Condensed', serif;
-		color: #FFD700;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-
-	#footerItem li a:hover{
-		color: #F5FEFF;
-		text-decoration: none;
-	}
-
-		.dropdown-menu{
-			background: #489FD1;
-		}
-		
-		.dropdown-menu li a{
-			background: #489FD1;
-		}
-
-		.dropdown-menu li a:hover{
-			background: #30C5DC;
-			color: white;
-		}
-	
-	#buttonContainer{
-		width: 15vw;
-		float: left;
-		text-align: right;
-	}
-	
-	#collapseButton{
-		color: #FFD700;
-	}
+#dropText{
+	background: #489FD1;
+}
